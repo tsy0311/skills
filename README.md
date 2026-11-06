@@ -41,7 +41,7 @@ Skills trigger automatically when the task matches their description; you can al
 
 **Everyday coding loop**
 - `/plan` → requirements, risks and a step plan; waits for your OK before touching code
-- `tdd-workflow` skill / `/tdd` → failing test first, then implement, then refactor
+- `tdd-workflow` skill → failing test first, then implement, then refactor
 - `/build-fix` → fix build and type errors incrementally
 - `/code-review` (local diff or a PR number), `code-reviewer` agent
 - `/test-coverage`, `/refactor-clean`, `/update-docs`, `verification-loop`
@@ -57,7 +57,7 @@ Quarkus, Perl), HIPAA/PHI, smart-contract and LLM-agent hardening, `/security-sc
 **DevOps** — Docker, Kubernetes, deployment patterns, canary watching, GitHub ops, homelab networking.
 
 **Building with AI** — agent harness design, autonomous loops, evals, prompt caching, cost tracking,
-MCP server patterns, multi-agent orchestration (`/orchestrate`, `team-builder`, `dmux-workflows`),
+MCP server patterns, multi-agent orchestration (`/orch-add-feature`, `/orch-fix-defect`, `/orch-build-mvp`, `team-builder`, `dmux-workflows`),
 `/santa-loop` dual-reviewer gate.
 
 **Research & writing** — `deep-research`, `market-research`, `article-writing`, `brand-voice`, `seo`,
